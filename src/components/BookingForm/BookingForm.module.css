@@ -1,0 +1,31 @@
+.wrap {
+    max-width: 448px;
+    padding: 24px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--c-main-black02);
+   
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.formTextarea {
+    resize: none;
+}
+
+.submitBtn{
+    display: block;
+    background-color: var(--c-main-red);
+    border: none;
+    border-radius: 200px;
+    font-size: medium;
+    color: white;
+    padding: 16px 60px;
+    max-width: 160px;
+
+
+}
+
