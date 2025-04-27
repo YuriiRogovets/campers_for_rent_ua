@@ -3,8 +3,8 @@ import "./App.module.css"
 import { Navigate, Route, Routes } from "react-router-dom"
 import Navigation from "../Navigation/Navigation";
 import HomePage from "../../pages/HomePage/HomePage";
-import CatalogPage from "../../pages/CatalogPage";
-import FavoritesPage from "../../pages/FavoritesPage";
+import CatalogPage from "../../pages/CatalogPage/CatalogPage";
+import FavoritesPage from "../../pages/FavoritesPage/FavoritesPage";
 
 // const HomePage = lazy(() => import("../../pages/HomePage"));
 // const CatalogPage = lazy(() => import("../../pages/CatalogPage"));
@@ -13,7 +13,7 @@ import FavoritesPage from "../../pages/FavoritesPage";
 function App() {
 
   return (
-    <body>
+    <div>
       <Navigation />
       <main>
         <Routes>
@@ -24,7 +24,7 @@ function App() {
         </Routes>
       </main>
     
-    </body>
+    </div>
   )
 }
 

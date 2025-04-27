@@ -1,6 +1,6 @@
-import React from "react"
+
 import { useForm } from "react-hook-form";
-import { CiCalendar } from "react-icons/ci";
+// import { CiCalendar } from "react-icons/ci";
 import css from "./BookingForm.module.css"
 
 const BookingForm = () => {

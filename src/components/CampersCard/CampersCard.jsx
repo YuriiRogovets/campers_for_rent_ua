@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Features from '../Features/Features'
 import Reviews from '../Reviews/Reviews'
 
@@ -11,7 +11,6 @@ const CampersCard = () => {
         <Reviews/>
       </div>
 
-      <BookingForm />
       </div>
   )
 }

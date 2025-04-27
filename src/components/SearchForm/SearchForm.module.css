@@ -1,0 +1,59 @@
+.wrapper {
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.field {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+}
+
+.sectionTitle {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.optionBtn {
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionBtnActive {
+    border-color: #ef4444;
+    color: #ef4444;
+}
+
+.searchBtn {
+    width: 100%;
+    background-color: #ef4444;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
